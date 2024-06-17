@@ -14,7 +14,7 @@
 
 %-------------------------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[a4paper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -121,7 +121,7 @@
 
 \begin{center}
     \textbf{\Huge \scshape \name} \\ \vspace{1pt}
-    \small 0468 491 565 $|$ \href{mailto:x@x.com}{\underline{\email}} $|$ 
+    \small \phone $|$ \href{mailto:x@x.com}{\underline{\email}} $|$ 
     \href{https://linkedin.com/in/jaricthorning}{\underline{\linkedIn}} $|$
     \href{https://github.com/jaricthorning}{\underline{\github}}
 \end{center}
@@ -166,26 +166,31 @@
        \resumeSubSubheading
             {Team Lead, System Integration Testing}{Jan 2023 - Present}
             \resumeItemListStart
-            \resumeItem{Managing a cross-functional team of five engineers, with varying seniority and experience. Overseeing the development of automated real-world test infrastructure. Responsible for sprints, team meetings, 1:1s, performance reviews, OKR definition, cross-team collaboration, and reporting to senior leadership.}
+            \resumeItem{Managing a cross-functional team of engineers, with varying seniority and experience. Overseeing the development of automated real-world test infrastructure. Responsible for sprints, team meetings, 1:1s, performance reviews, OKR definition, cross-team collaboration, and reporting to senior leadership.}
             \resumeItem{Led international Wi-Fi HaLow interoperability and coexistence test events for the Wireless Broadband Alliance. Developed a series of stand alone test applications, including a 2D throughput survey, a GPS based signal strength monitor and an ESP-32 based HaLow weather station.}
             \resumeItem{Built an on-device Flask based data capture tool to help run HaLow/ Z-Wave coexistence testing. Resulting in a smooth key customer demo, with live data capture updates.}
-
+            \resumeItem{Designed, built and tested Variable Attenuator, Channel Emulator and RF Multiplexed chambered test setups. Also built custom 2000 unit test rig using aluminum profiles and 3D printed PETG components.}
+            \resumeItem{Working with the core engineering team to feedback and report underlying RF issues, the applications team to sign-off on customer releases, and the marketing team to produce marking collateral and aid in sales.}
             \resumeItemListEnd
         %-----------------------------------------------
         % ----------- Applications Engineer -----------
         \resumeSubSubheading
             {Applications Engineer}{Jan 2022 - Jan 2023}
             \resumeItemListStart
-                \resumeItem{Solely responsible for comprehensive Python-based automation suite, used for both lab and real-world field testing. The suite automates the running of tests, visualisation of data, and final report generation. It uses a combination of asyncio, asyncSSH, fastAPI, SQLAlchemy, PostgreSQL, pandas, matplotlib, plotly/dash, and fpdf.}
+                \resumeItem{Sole developer of comprehensive Python-based automation suite, used for both lab and real-world field testing. The suite automates the running of tests, visualisation of data, and final report generation. It uses a combination of asyncio, asyncSSH, fastAPI, SQLAlchemy, PostgreSQL, pandas, matplotlib, plotly/dash and fpdf. Jenkins is used for remote server test runs and Bitbucket Pipelines/ PyTest is used for CICD.}
                 \resumeItem{Designed an AWS OpenVPN data back-haul solution for remote in-field testing and created a Python CLI for user/certificate management.}
+                \resumeItem{Performed site surveys, including collecting overhead drone shots, floor plans, spectrum analysis captures and in-band noise measurements.}
+                \resumeItem{Led several graduate programs, developing rotation program, presenting and generally up-skilling recently hired graduates.}
             \resumeItemListEnd
         %-----------------------------------------------
         % ----------- Graduate Engineer -----------
         \resumeSubSubheading
             {Graduate Engineer (Software)}{Jan 2021 - Jan 2022}
             \resumeItemListStart
-                \resumeItem{Wrote a TLV based UART communication protocol in C, enabling removal of the standard printf library and resulting in 20\% lower overall memory usage.}
+                \resumeItem{Gathered user requirements and wrote a TLV based UART communication protocol in C, enabling removal of the standard printf library and resulting in 20\% lower overall memory usage.}
                 \resumeItem{Debugged chip firmware issues, including interrupt handler exceptions and compiler optimisation issues.}
+                \resumeItem{Used git/ bitbucket for version control and team collaboration, Jira for task allocation and Confluence for feature documentation.}
+                \resumeItem{Built and brought up evaluation kits for cross-team usage.}
             \resumeItemListEnd
         %-----------------------------------------------
         % ----------- Arup -----------
@@ -217,6 +222,22 @@
   \resumeSubHeadingListEnd
 
 
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Capabilities}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, Java, PostgreSQL, JavaScript, HTML/CSS, Swift} \\
+     \textbf{Frameworks}{: Django, Flask, FastAPI, React, Next.js, PyQT, PyTest} \\
+     \textbf{Development Tools}{: Git, Jenkins, Atlassian Suite, Linux} \\
+     \textbf{Libraries}{: Asyncio, Pandas, Matplotlib, Numpy, Pip, Poetry, PyEnv} \\
+     \textbf{Analysis Tools}{: Wireshark, Logic, Pandas, Matplotlib, Numpy, Gdb/Valgrind} \\
+     \textbf{Software}{: Datagrip, Visual Studio, QT Designer, BambuStudio/Fusion360, Slack, Microsoft Suite, Google Suite} \\
+     \textbf{Linux Tools}{: ssh/telnet, scp/rsync, iperf3/iperf2, ip/ifconfig, route, iw, wavemon, tcpdump, grep/awk/sed, vi/vim, make, gcc, nmap, arp/arp-scan} \\
+     \textbf{Equipment}{: Spectrum Analyser, Variable Attenuator, Channel Emulator, Signal Generator/ Oscilloscope, Power Supply, Logic Analyser, Pluto SDR, LitePoint} \\
+    }}
+ \end{itemize}
+
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
@@ -236,17 +257,7 @@
 
 
 
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, C/C++, Java, PostgreSQL, JavaScript, HTML/CSS} \\
-     \textbf{Frameworks}{: Django, Flask, FastAPI, React, Node.js, PyQT, pytest} \\
-     \textbf{Developer Tools}{: Git, Visual Studio, Jenkins, Atlassian Suite} \\
-     \textbf{Libraries}{: pandas, numpy, matplotlib, asyncio }
-    }}
- \end{itemize}
+
 
 
 %-------------------------------------------
